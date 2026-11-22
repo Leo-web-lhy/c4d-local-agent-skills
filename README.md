@@ -4,6 +4,9 @@
 运行时把 `HF_HUB_OFFLINE=1` / `TRANSFORMERS_OFFLINE=1` 打开，加载权重用
 `local_files_only=True`，断网也能回答。
 
+- 公开仓库：<https://github.com/Leo-web-lhy/c4d-local-agent-skills>
+- 交付说明：`C4D_Agent技能说明.md`｜使用日志：`AI日志.md`｜复盘：`AAR.md`
+
 - 底座模型：`Qwen/Qwen2.5-0.5B-Instruct`（988 MB safetensors，fp32，CPU 推理）
 - 运行环境：Windows 11 / Python 3.12.13 / torch 2.15.0+cpu / transformers 5.24.0
 - 硬件：i7-13700H（14C/20T），16.9 GB RAM，无 CUDA 可用（GPU 存在但本方案只用 CPU）
